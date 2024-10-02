@@ -1,4 +1,3 @@
-//Main class
 class Cupcake {
     constructor(flavor, icing, size) {
         this.flavor = flavor;
@@ -11,7 +10,6 @@ class Cupcake {
     }
 }
 
-//Extended classes
 class ChocolateCupcake extends Cupcake {
     constructor(size) {
         super('chocolate', 'chocolate', size);
@@ -30,7 +28,6 @@ class StawberryCupcake extends Cupcake {
     }
 }
 
-// Factory
 class CupcakeFactory {
     static createCupcake(type, size) {
         switch (type) {
@@ -46,7 +43,6 @@ class CupcakeFactory {
     }
 }
 
-// Testing
 const cupcake1 = CupcakeFactory.createCupcake('chocolate', 'medium');
 console.log(cupcake1.describe());
 
