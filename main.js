@@ -24,7 +24,7 @@ class VanillaCupcake extends Cupcake {
 
 class StawberryCupcake extends Cupcake {
     constructor(size) {
-        super('strawberry', 'queso crema', size);
+        super('strawberry', 'strawberry cream', size);
     }
 }
 
